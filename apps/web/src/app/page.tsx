@@ -123,7 +123,7 @@ export default function HomePage() {
             </h3>
             <CodeCommand
               className="mt-4"
-              code={`curl "https://api.savemytokens.dev/v1/triage?url=https://example.com"`}
+              code={`curl "https://savemytokens-api.vercel.app/v1/triage?url=https://example.com"`}
             />
 
             <h3 className="mt-12 font-display text-lg font-bold tracking-tight text-foreground">
